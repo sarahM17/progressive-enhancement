@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    min-height: 600px;
+    width: 100%;
+}
+  
+.flex-container > div {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10%;
+    overflow: hidden;
+    background-color: #333;
+    line-height: 50px;
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#Login {
+    margin-left: 440px;
+}
+.navbar-logo {
+    float: left;
+    width: 90px;
+    height: 30px;
+    margin-right: 20px;
+}
+.main {
+    display: flex;
+    line-height: 60px;
+    background-color: dodgerblue;
+}
+.header-img {
+    background-color: dodgerblue;
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.header-logo {
+    float: right;
+    width: 300px;
+    height: 100px;
+    margin-right: 50%;
+    margin-top: 30px;
+}
+.tekst1 {
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+    color: whitesmoke;
+    margin-top: Opx;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.button {
+    position: absolute;
+    top: 250px;
+    right: 40%;
+    background-color: orangered;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    line-height: 60px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.midden {
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+}
+.tekst2 {
+    line-height: 60px;
+    font-size: 20px;
+}
+.main1 {
+    display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+.row1, .row2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    text-align: left;
+    padding: 0px 5px;
+    margin-right: 40px;
+}
+.tekst3, .tekst5 {
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+h3 {
+    font-size: 25px;
+    line-height: 40px;
+}
+.tekst4, .tekst6 {
+    float: right;
+    margin-bottom: 40px;
+}
+.tekst3, .tekst4 {
+    margin-top: 40px;
+}
+.tekst4, .tekst6 {
+    margin-left: 40px;
+}
+.link {
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 60px;
+    color: darkslategray;
+}
+.tekst7 {
+    line-height: 60px;
+    font-size: 20px;
+}
+.buttons {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.logos {
+    display: flex;
+    flex-direction: row;
+    line-height: 60px;
+    position: relative;
+    top: 20px;
+    left: 130px;
+    bottom: 20px;
+}
+.logos1 {
+    margin-left: 50px;
+    padding: 0px 5px;
+}
+.logos2 {
+    margin-top: 30px;   
+}
+.knop {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 35%;
+    top: 30px;
+    right: 40%;
+    background-color: whitesmoke;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+}
+.knop1, .knop2 {
+    background-color: blue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    color: white;
+    line-height: 60px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.knop3 {
+    background-color: orangered;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orangered;
+    color: white;
+    line-height: 60px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.footer {
+    display: flex;
+    position: relative;
+    top: 60px;
+    flex-direction: row;
+    background-color: #333;
+    line-height: 40px;
+}
+.tekst8 {
+    color: whitesmoke;
+    font-size: 15px;
+    position: relative;
+    left: 85%;
+}
+.deactive {
+    position: relative;
+    left: -10%;
+    padding: 5px 10px;
+}
+.deactive > ul {
+    padding-left: -20%
+}
